@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+/**
+ *
+ * @author PC03-LAB02
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int mes=15;
+        String estacion;
+        switch (mes){
+            case 12:case 1: case2:
+            estacion="invierno";
+            break;
+            case 3:case 4:case 5:
+                estacion="primavera";
+                break;
+            case 6: case 7:case 8:
+                estacion="verano";
+                break;
+            case 9:case 10:case 11:
+                estacion="otoño";
+               break;
+               default:
+                   estacion="mes incorrecto";
+                   System.out.println(estacion);
+                
+                
+                
+        
+    }
+        
+        
+        
+        
+        
+    }
+    
+}
